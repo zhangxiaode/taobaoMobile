@@ -1,0 +1,230 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp {
+    font-size:0.24rem;
+    font-family:"Microsoft Yahei";
+}
+.view{
+    width:100%;height:100%;
+}
+.scrollView{
+    display:flex;width:100%;height:100%;
+}
+.goTop{
+    position:fixed;
+}
+/*头部*/
+.header{
+    position:fixed;top:0;left:0;
+    width:100%;height:0.74rem;
+    background:#FE5400;
+}
+.header p{
+    background:url(../images/header.png) no-repeat 0.09rem center;background-size:0.54rem 0.4rem;
+    padding:0.12rem 0.128rem 0.12rem 0.74rem;
+    width:100%;height:100%;
+    box-sizing:border-box;
+}
+.header .search{
+    display:block;width:100%;height:0.5rem;
+    border-radius:0.08rem;
+    background:#B52600;
+    text-align:center;
+}
+.header .search span{
+    display:inline-block;
+    color:#F0E0DC;font-size:0.26rem;
+    height:0.5rem;line-height:0.5rem;
+}
+.header .search span i{
+    margin-right:0.1rem;
+}
+
+.scroll-wrap{
+    position:absolute;top:0.74rem;bottom:0.86rem;left:0;right:0;
+    overflow-y:auto;overflow-x:hidden;
+}
+.main{
+    width:100%;height:auto;
+}
+#slideDown{
+    display:none;
+}
+#slideDown p{
+    color:#37bbf5;font-size:0.24rem;
+    text-align:center;
+}
+.main .appDownLoad{
+    display:block;height:0.84rem;
+    background:#5f646e;
+}
+.main .appDownLoad .closeApp{
+    float:left;width:0.8rem;height:0.84rem;
+}
+.main .appDownLoad .closeApp span{
+    display:block;width:0.32rem;height:0.32rem;line-height:0.32rem;
+    border: 1px solid #fff;border-radius: 50%;
+    color:#fff;font-size:0.24rem;
+    margin:0.24rem auto;
+    text-align:center;
+}
+.main .appDownLoad .appFavicon{
+    background:url(../images/appFavicon.png) no-repeat center center;background-size:0.6rem 0.6rem;
+    float:left;width:0.6rem;height:0.84rem;
+    margin-right:0.16rem;
+}
+.main .appDownLoad .appGift{
+    float:left;width:3.2rem;height:0.84rem;line-height:0.84rem;
+    padding-right:0.2rem;
+    color:#fff;
+}
+.main .appDownLoad .appNow{
+    float:left;width:1.22rem;height:0.84rem;line-height:0.84rem;
+    font-size:0.28rem;color:#fff;
+    background:#FF5000;
+    padding:0 0.11rem;
+}
+.main .menu{
+    background:#fff;
+    overflow:hidden;
+}
+.main .menu li{
+    float:left;width:1.28rem;height:1.36rem;
+    padding-left:0.26rem;
+}
+.main .menu li a{
+    display:inline-block;height:1.36rem;
+}
+.main .menu .menuImg {
+    width:1.03rem;height:0.77rem;
+    margin:0.21rem 0 0 0.12rem;
+}
+.main .menu .menuTit {
+    height:0.38rem;text-align:center;
+    padding-left:6px;color:rgb(102, 102, 102);
+}
+.main .menu .tm {
+    background:url(../images/tm.png) no-repeat center center;background-size:contain;
+}
+.main .menu .jhs {
+    background:url(../images/jhs.png) no-repeat center center;background-size:contain;
+}
+.main .menu .dj {
+    background:url(../images/dj.png) no-repeat center center;background-size:contain;
+}
+.main .menu .wm {
+    background:url(../images/wm.png) no-repeat center center;background-size:contain;
+}
+.main .menu .cz {
+    background:url(../images/cz.png) no-repeat center center;background-size:contain;
+}
+.main .menu .allx {
+    background:url(../images/allx.png) no-repeat center center;background-size:contain;
+}
+.main .menu .ljb {
+    background:url(../images/ljb.png) no-repeat center center;background-size:contain;
+}
+.main .menu .fenlei {
+    background:url(../images/fl.png) no-repeat center center;background-size:contain;
+}
+.main .news {
+    border-top:solid 1px rgb(232, 232, 232);background:#fff;
+    width:100%;height:0.48rem;
+    padding:0.06rem 0;
+}
+.main .news .newsTitle{
+    background:url(../images/newsTitle.png) no-repeat center center;background-size:1.035rem 0.3rem;
+    border-right:solid 1px rgb(232, 232, 232);
+    float:left;text-indent:-9999rem;
+    width:1.39rem;height:0.48rem;
+}
+.main .news .newsContent{
+    float:left;overflow:hidden;
+}
+.main .news .newsContent span{
+    float:left;width:0.662rem;height:0.3rem;line-height:0.3rem;
+    border:1px solid rgb(216, 20, 33);border-radius:0.1rem;
+    color:rgb(216, 20, 33);font-size:0.26rem;
+    padding:0 0.04rem;margin:0.08rem 0.05rem 0.08rem 0.13rem;
+    text-align:center;
+}
+.main .news .newsContent .slide{
+    float:left;width:3.84rem;height:0.4rem;
+    margin:0.08rem 0;
+}
+.main .news .newsContent .slide p{
+    color:rgb(133, 133, 133);font-size:0.3rem;
+}
+.main .wrap1{
+    margin-top:0.2rem;
+    background:#fff;
+    overflow:hidden;
+}
+.main .wrap1 .left{
+    background:url(../images/wrap1LeftBg.jpg) no-repeat left top;background-size:100% 100%;
+    border-right:solid 1px rgb(232, 232, 232);
+    float:left;width:2.56rem;height:3.07rem;
+}
+.main .wrap1 .right{
+    float:right;width:3.82rem;height:3.07rem;
+    overflow:hidden;
+}
+.main .wrap1 .right .top{
+    border-bottom:solid 1px rgb(232, 232, 232);
+    width:100%;height:1.23rem;
+}
+.main .wrap1 .right .top .top1{
+    background:url(../images/wrap1RightTop1.png) no-repeat left top;background-size:contain;
+    float:left;width:2.25rem;height:100%;
+}
+.main .wrap1 .right .top .top2{
+    background:url(../images/wrap1RightTop2.jpg) no-repeat left top;background-size:contain;
+    float:left;width:1.23rem;height:100%;
+}
+.main .wrap1 .right .bottom{
+    width:100%;height:1.83rem;
+}
+.main .wrap1 .right .bottom .bottom1{
+    background:url(../images/wrap1RightBottom1.jpg) no-repeat left top;background-size:contain;
+    float:left;width:1.90rem;height:100%;
+    border-right:solid 1px rgb(232, 232, 232);
+}
+.main .wrap1 .right .bottom .bottom2{
+    background:url(../images/wrap1RightBottom2.png) no-repeat left top;background-size:contain;
+    float:left;width:1.90rem;height:100%;
+}
+
+
+.footer{
+    border-top: 1px solid #E7E7E7;border-bottom: 1px solid #F8F8F8;
+    position:fixed;left:0;bottom:0;
+    width:100%;height:0.76rem;
+    padding-top:0.08rem;
+}
+.footer a{
+    float:left;width:1.28rem;height:100%;
+    text-align:center;
+}
+.footer a span{
+    display:block;height:0.48rem;
+    font-size:0.44rem;color:#5D656B;
+}
+.footer a p{
+    height:0.28rem;line-height:0.28rem;
+    font-size:0.2rem;color:#5D656B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
